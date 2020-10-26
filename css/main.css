@@ -1,0 +1,105 @@
+body{
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+
+}
+.container{
+	width: 1140px;
+	margin:0 auto;
+}
+.logo{
+	height: 70px;
+	width: 140px
+}
+.phone{
+color: white;
+	font-family: 'Montserrat Black', sans-serif;
+	font-size: 12px;
+	margin-left: auto;
+	transition: all 0.5s ease;
+}
+.phone:hover{
+font-size: 20px;
+}
+div, p, a, img, form, button{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+
+.nav{
+display: flex;
+	align-items: center;
+	margin-top: 42px;
+}
+.menu{
+	display: flex;
+	top: 70px;
+	margin-left: 160px;
+}
+.menu li{
+	font-size: 12px;
+	margin-right: 25px;
+}
+.menu li a{
+	color: #fff;
+	padding: 12px 0;
+}
+.menu li a:hover{
+	color: #6bff3d;
+	border-top: 1px solid #6bff3d;
+	border-bottom: 1px solid #6bff3d;
+}
+.offer{
+	display: flex;
+	align-items: center;
+	margin-top: 104px;
+}
+.offer-content h1{
+	font-family: "Montserrat Black", sans-serif;
+	font-size: 36px;
+	color: white;
+}
+.offer-content p{
+	font-size: 16px;
+	font-weight: 200;
+	color: silver;
+	margin-top: 19px;
+}
+.offer-content a{
+	background-color: #faf04b;
+	color: black;
+	font-weight: 900;
+	font-size: 14px;
+	width: 218px;
+	display: block;
+	text-align: center;
+	padding: 17px 0;
+	transition: all 0.5s ease;
+	margin-top: 35px;
+}
+.offer-content a:hover{
+	background: #eccb2e;
+	color: white;
+}
+.triangles{
+	background-image: url('../img/mono.png');
+	width: 573px;
+	height: 560px;
+	margin-left: auto;
+	margin-right: 81px;
+}
